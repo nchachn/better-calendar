@@ -1,5 +1,11 @@
 # What's Academy - Better Calendar
 
+## Authorship
+
+- **nchachn**
+- **webboy**
+- **FluffyKillerCat**
+
 A comprehensive calendar management system designed for Masterschool students, integrating multiple calendar sources into a unified platform with WhatsApp notifications.
 
 ## Features
