@@ -1,9 +1,14 @@
 # What's Academy — Better Calendar
 
+![CI](https://github.com/nchachn/better-calendar/actions/workflows/ci.yml/badge.svg)
+
 Multi-source calendar integration with WhatsApp-driven interactions and local event management.
 
-> **Status:** Active development on this fork (**15 commits ahead** of upstream).
+> **Status:** MVP / active development on this fork  
 > Upstream: `webboy/better-calendar`
+
+## Scope
+This fork focuses on presentation polish, configuration hygiene (`.env.example`), and a minimal CI sanity check. Core integrations may require credentials to run.
 
 ## Authorship
 Primary authors and credited contributors:
@@ -15,7 +20,6 @@ Primary authors and credited contributors:
 This repository is a continuation of upstream: `webboy/better-calendar`.
 
 ## Features
-
 ### Multi-source calendar integration
 - Google Calendar sync
 - Calendly integration
@@ -28,8 +32,16 @@ This repository is a continuation of upstream: `webboy/better-calendar`.
 - Interactive event management
 
 ### Email verification
-- Secure user verification process
+- User verification flow
 - HTML email templates
+
+## Demo (example flow)
+```text
+/help
+/calendar add 2026-02-24 10:00 "Project kickoff"
+/calendar list
+/remind 2026-02-23 18:00 "Prepare slides"
+```
 
 ## Quickstart (local)
 > Integrations require credentials. See `.env.example`.
@@ -41,11 +53,11 @@ cp .env.example .env
 make help
 ```
 
-Run patterns (depending on your setup):
+Run options (depending on your setup):
 
 ```bash
 make run
-# or
+# or:
 python app.py
 ```
 
