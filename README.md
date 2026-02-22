@@ -8,7 +8,7 @@ Multi-source calendar integration with WhatsApp-driven interactions and local ev
 > Upstream: `webboy/better-calendar`
 
 ## Scope
-This fork focuses on presentation polish, configuration hygiene (`.env.example`), and a minimal CI sanity check. Core integrations may require credentials to run.
+This fork includes my contributions to core functionality, repo hygiene (CI and configuration), and product presentation/marketing deliverables, while maintaining upstream credit. Core integrations may require credentials to run.
 
 ## Authorship
 Primary authors and credited contributors:
@@ -20,26 +20,32 @@ Primary authors and credited contributors:
 This repository is a continuation of upstream: `webboy/better-calendar`.
 
 ## Features
+
 ### Multi-source calendar integration
+
 - Google Calendar sync
 - Calendly integration
 - Masterschool calendar sync
 - Local calendar management
 
 ### WhatsApp integration
+
 - Event notifications
 - Command-line interface via WhatsApp
 - Interactive event management
 
 ### Email verification
-- User verification flow
+
+- Secure user verification process
 - HTML email templates
 
 ## Demo (example flow)
-> Example WhatsApp-style interaction (simulated)
 
-```text
+Example WhatsApp-style interaction (simulated):
+
+```bash
 /help
+# Available commands:
 # /calendar add <datetime> "<title>"
 # /calendar list
 # /remind <datetime> "<message>"
@@ -55,7 +61,8 @@ This repository is a continuation of upstream: `webboy/better-calendar`.
 ```
 
 ## Quickstart (local)
-Integrations require credentials. See `.env.example`.
+
+> Integrations require credentials. See `.env.example`.
 
 ```bash
 git clone https://github.com/nchachn/better-calendar.git
@@ -64,7 +71,7 @@ cp .env.example .env
 make help
 ```
 
-Run options (depending on your setup):
+Common run patterns (depending on your setup):
 
 ```bash
 make run
@@ -73,6 +80,7 @@ python app.py
 ```
 
 ## Project structure
+
 - `app/` — application modules (integrations, services)
 - `cli/` — command-line utilities
 - `storage/` — persistence layer
@@ -81,4 +89,5 @@ python app.py
 - `app.py` — main entrypoint
 
 ## License
+
 MIT — see `LICENSE`.
