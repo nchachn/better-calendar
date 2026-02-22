@@ -4,7 +4,7 @@
 
 Multi-source calendar integration with WhatsApp-driven interactions and local event management.
 
-> **Status:** MVP / active development on this fork  
+> **Status:** MVP / prototype showcase on this fork  
 > Upstream: `webboy/better-calendar`
 
 ## Scope
@@ -13,7 +13,7 @@ This fork focuses on presentation polish, configuration hygiene (`.env.example`)
 ## Authorship
 Primary authors and credited contributors:
 
-- **nchachn (Nikoloz Chachia)** — core feature development, integrations, and product/presentation deliverables
+- **nchachn (Nikoloz Chachia)** — core feature development, and product/presentation deliverables
 - **webboy** — core implementation and repository maintenance
 - **FluffyKillerCat (Joud Hajal)** — core implementation
 
