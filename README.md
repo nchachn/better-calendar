@@ -1,11 +1,11 @@
 # What's Academy — Better Calendar
 
-![CI](https://github.com/nchachn/better-calendar/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/nchachn/better-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/nchachn/better-calendar/actions/workflows/ci.yml)
 
 Multi-source calendar integration with WhatsApp-driven interactions and local event management.
 
-> **Status:** MVP / prototype showcase on this fork
-> Upstream: `webboy/better-calendar`
+Status: Integration-focused MVP (credentials required)
+Upstream: `webboy/better-calendar`
 
 ## Scope
 This fork includes my contributions to core functionality, repo hygiene (CI and configuration), and product presentation/marketing deliverables, while maintaining upstream credit. Core integrations may require credentials to run.
@@ -20,7 +20,6 @@ Primary authors and credited contributors:
 This repository is a continuation of upstream: `webboy/better-calendar`.
 
 ## Features
-
 ### Multi-source calendar integration
 - Google Calendar sync
 - Calendly integration
@@ -37,6 +36,7 @@ This repository is a continuation of upstream: `webboy/better-calendar`.
 - HTML email templates
 
 ## Demo (video walkthrough)
+
 [![Watch the demo](https://img.youtube.com/vi/dht9Jkz8Mo0/0.jpg)](https://youtu.be/dht9Jkz8Mo0)
 
 ## Demo (example flow)
@@ -61,7 +61,6 @@ Example WhatsApp-style interaction (simulated):
 ```
 
 ## Quickstart (local)
-
 > Integrations require credentials. See `.env.example`.
 
 ```bash
@@ -80,7 +79,6 @@ python app.py
 ```
 
 ## Project structure
-
 - `app/` — application modules (integrations, services)
 - `cli/` — command-line utilities
 - `storage/` — persistence layer
@@ -89,5 +87,4 @@ python app.py
 - `app.py` — main entrypoint
 
 ## License
-
 MIT — see `LICENSE`.
