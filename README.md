@@ -5,6 +5,7 @@
 Multi-source calendar integration with WhatsApp-driven interactions and local event management.
 
 Status: Integration-focused MVP (credentials required)
+
 Upstream: `webboy/better-calendar`
 
 ## Scope
@@ -12,7 +13,6 @@ This fork includes my contributions to core functionality, repo hygiene (CI and 
 
 ## Authorship
 Primary authors and credited contributors:
-
 - **nchachn (Nikoloz Chachia)** — core feature development, and product/presentation deliverables
 - **webboy** — core implementation and repository maintenance
 - **FluffyKillerCat (Joud Hajal)** — core implementation
@@ -36,11 +36,15 @@ This repository is a continuation of upstream: `webboy/better-calendar`.
 - HTML email templates
 
 ## Demo (video walkthrough)
+Short product walkthrough showing:
+- WhatsApp interaction flow
+- Event creation + listing
+- Reminder scheduling
+- System startup
 
 [![Watch the demo](https://img.youtube.com/vi/dht9Jkz8Mo0/0.jpg)](https://youtu.be/dht9Jkz8Mo0)
 
 ## Demo (example flow)
-
 Example WhatsApp-style interaction (simulated):
 
 ```bash
