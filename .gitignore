@@ -158,6 +158,10 @@ dmypy.json
 .pytype/
 
 # Cython debug symbols
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 cython_debug/
 
 # PyCharm
