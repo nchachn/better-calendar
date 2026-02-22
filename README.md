@@ -22,22 +22,22 @@ This repository is a continuation of upstream: `webboy/better-calendar`.
 ## Features
 
 ### Multi-source calendar integration
-
 - Google Calendar sync
 - Calendly integration
 - Masterschool calendar sync
 - Local calendar management
 
 ### WhatsApp integration
-
 - Event notifications
 - Command-line interface via WhatsApp
 - Interactive event management
 
 ### Email verification
-
 - Secure user verification process
 - HTML email templates
+
+## Demo (video walkthrough)
+[![Watch the demo](https://img.youtube.com/vi/dht9Jkz8Mo0/0.jpg)](https://youtu.be/dht9Jkz8Mo0)
 
 ## Demo (example flow)
 
